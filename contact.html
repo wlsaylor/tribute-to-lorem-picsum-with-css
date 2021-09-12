@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <h1>Contact</h1>
+        </header>
+        <div class="row">
+            <div class="column">
+                <p>If you want to learn more about Lorem Picsum, you should probably just go to their website: <a
+                        href="https://picsum.photos/">https://picsum.photos/</a></p>
+                <p class="disclaimer"><em>Note: The author of this webpage is in no way associated with Lorem Picsum. He
+                        just thinks its
+                        really
+                        cool.</em></p>
+                <p>However, you can fill out this form to reach me with any other questions.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column" id="formcontainer">
+                <h2>Contact Form</h2>
+                <form>
+                    <div class="splitform">
+                        <div class="formcolumn">
+                            <label for="firstname">First Name:</label><br>
+                            <input type="text" class="textinput" name="firstname" required><br>
+                            <label for="lastname">Last Name:</label><br>
+                            <input type="text" class="textinput" name="lastname" required><br>
+                            <label for="email">Email:</label><br>
+                            <input type="text" class="textinput" name="email" required><br>
+                        </div>
+                        <div class="formcolumn" id="checkboxcolumn">
+                            <span>Reason for Contact:</span><br>
+                            <div>
+                                <input type="checkbox" class="check" name="lorempicsum" value="lorempicsum">
+                                <label for="lorempicsum">Lorem Picsum</label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check" name="personalquery" value="personalquery">
+                                <label for="personalquery">Personal Query</label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check" name="freshadvice" value="freshadvice">
+                                <label for="freshadvice">Fresh Advice</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+            <div class="column">
+                <p>Thank you! Enjoy this random picture:</p>
+                <img class="decoimage" src="https://picsum.photos/500/350" alt="Random Image">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <nav class="navmenucontainer">
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="services.html">Services</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
